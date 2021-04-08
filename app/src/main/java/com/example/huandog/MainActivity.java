@@ -3,17 +3,18 @@ package com.example.huandog;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.view.MenuItem;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
 
 public class MainActivity extends AppCompatActivity {
 
     Fragment fragmentHome;
     Fragment fragmentFriends;
     Fragment fragmentMyPage;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,14 +33,17 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getItemId()){
                     case R.id.navigation_home:
+                        fragmentHome = new HomeFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_activity_main,fragmentHome).commit();
                         return true;
 
                     case R.id.navigation_friends:
+                        fragmentFriends = new FriendsFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_activity_main,fragmentFriends).commit();
                         return true;
 
                     case R.id.navigation_myPage:
+                        fragmentMyPage = new MyPageFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_activity_main,fragmentMyPage).commit();
                         return true;
                 }
@@ -49,4 +53,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+
 }

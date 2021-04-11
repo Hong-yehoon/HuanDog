@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "913237481801",
+    "project_id": "huandogdata",
+    "storage_bucket": "huandogdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913237481801:android:69ac38c19dea2129a6a298",
+        "android_client_info": {
+          "package_name": "com.example.huandog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913237481801-6u4f64akjoll5gjufsq2f78f4javdopt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB98ekILuo75mViQUc5KEyrdVNX0lsgVyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913237481801-6u4f64akjoll5gjufsq2f78f4javdopt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

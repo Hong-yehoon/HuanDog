@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="main_state_bg_color">#7EFFFFFF</color>
+
+    <color name="activityBtn">#3F51B5</color>
+    <color name="basicBtn">#3F51B5</color>
+
 </resources>
